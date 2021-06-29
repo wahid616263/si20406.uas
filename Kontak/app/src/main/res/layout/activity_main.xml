@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DFFEB3B"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/EditTextNama"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="504dp"
+        android:layout_height="208dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextNama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/text" />
+
+    <EditText
+        android:id="@+id/EditTextNo"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnBuat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnBuat"
+        android:layout_width="172dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="128dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btnbuat"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="253dp"
+        android:text="Nama Lengkap"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextNama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="260dp"
+        android:text="No Handphone"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

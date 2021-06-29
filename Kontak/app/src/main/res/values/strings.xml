@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kontak</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="no">Nomor Handphone</string>
+    <string name="btnbuat">Buat Kontak</string>
+    <string name="id">Id</string>
+</resources>

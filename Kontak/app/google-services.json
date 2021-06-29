@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022387739649",
+    "project_id": "appkontak",
+    "storage_bucket": "appkontak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022387739649:android:4556b0c277c48116153400",
+        "android_client_info": {
+          "package_name": "com.example.kontak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022387739649-u15eotd6d9hdj40hnk1gur320e6a9m17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kontak",
+            "certificate_hash": "a789e505c817a122ea906ea6eaa3d48b3a30ab18"
+          }
+        },
+        {
+          "client_id": "1022387739649-f62inne8evtpbcbm01go6gj9mj3odul5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAppFHlOZj_MyRximf75H3Gj8Qc0G0uY50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022387739649-f62inne8evtpbcbm01go6gj9mj3odul5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
